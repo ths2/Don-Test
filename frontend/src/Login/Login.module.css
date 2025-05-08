@@ -1,0 +1,98 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    border-radius: 8px;
+    padding: 10px 15px;
+  }
+  
+  .inputGroup input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .icon {
+    color: #888;
+    margin-right: 10px;
+  }
+  
+  .loginButton {
+    background: #667eea;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .loginButton:hover {
+    background: #5a67d8;
+  }
+  
+  .redirect {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #444;
+  }
+  
+  .link {
+    color: #667eea;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    background: #ffe0e0;
+    color: #d60000;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  
